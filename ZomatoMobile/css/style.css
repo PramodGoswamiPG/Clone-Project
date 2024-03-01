@@ -1,0 +1,137 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    overflow-x:hidden;
+    font-family: 'Inconsolata', monospace;
+}
+
+body{
+    overflow-x: hidden;
+}
+#header{
+    display: flex;
+    width: 100%;
+    height: 80px;
+}
+#header>#nav1{
+    width: 45%;
+}
+
+#nav2{
+    height: 80px;
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#nav2>img{
+    height: 35%; 
+}
+
+
+
+#header>#nav3{
+    width: 20%;
+}
+
+#article1{
+    height: 600px;
+    width: 100%;
+}
+
+#article1>.cont{
+    height: 500px;
+    width: 75%;
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+
+
+#article1>.cont>.mobile{
+    width: 40%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#article1>.cont>.mobile>img{
+    width: 110%;
+    padding-top: 150px;
+}
+
+#article1>.cont>.cont1{
+    width: 60%;
+    padding-left: 130px;
+}
+
+.cont1>input[type="text"]{
+    width:300px;
+    font-size: 20px;
+    height: 50px;
+    padding-inline: 10px;
+    border-radius: 5px;
+    border:1px solid #CECFCE;
+}
+
+.cont1>button{
+    font-size: 18px;
+    padding: 10px 20px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    background-color: #EE4E5F;
+    color: white;
+}
+
+.cont1>.flex>button{
+    border: none;
+    cursor: pointer;
+}
+
+.cont1>.flex>button>img{
+    height: 40px;
+}
+
+footer{
+    width: 100%;
+    height: 70vh;
+}
+
+.container{
+    width: 70%;
+    margin: auto;
+}
+
+.nav2{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav2>img{
+    height: 35%; 
+}
+
+.services{
+    display: flex;
+    justify-content: space-between;
+}
+
+li{
+    line-height: 1.8;
+}
+
+.blok>button{
+    border: none;
+    cursor: pointer;
+}
+
+.blok>button>img{
+    height: 40px;
+}

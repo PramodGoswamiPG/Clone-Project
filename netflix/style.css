@@ -1,0 +1,260 @@
+*{
+ margin: 0;
+padding: 0;
+
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.image{
+    
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-position: center; 
+    background-repeat: no-repeat;
+    
+    background-image: url(assest/IN-en-20231023-popsignuptwoweeks-perspective_alpha_website_medium.jpg);
+
+}
+.image>article{
+    height: 80vh;
+    width: 80%;
+    
+}
+.image>article>.navbar{
+    width: 100%;
+    height: 70px;
+     
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+
+.image>article>.navbar>.logo{
+    width: 150px;
+    height: 20%;
+    fill: rgb(242, 25, 25);
+    opacity: 5;
+margin-bottom: 20px;
+}
+
+.image>article>.navbar>.search>button{
+    width: 60px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+   background-color: red;
+margin-bottom: 20px;
+
+}
+
+.image>article>.navbar>.search>select{
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid white;
+   
+    margin-right: 20px;
+    color: white;
+   background-color:rgb(26, 21, 21);
+margin-bottom: 20px;
+
+}
+
+.image>article>.home{
+    margin-top: 120px;
+    width: 100%;
+    height: 40vh;
+    position: absolute;
+  
+     
+    
+}
+.image>article>.home>h1{
+   margin-top: 60px;
+    width: 80%;
+    position: absolute;
+    height: 50vh;
+    
+    margin-left: 55px;
+    font-weight: 600;
+    font-size: 55px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;  
+}
+
+.image>article>.home>h2{
+  
+     width: 80%;
+    margin-top: 220px;
+     height: 50vh;
+  position: absolute;
+     font-size: 20px;
+     font-family: Arial, Helvetica, sans-serif;
+     color: rgb(240, 232, 232);
+ }
+
+ .image>article>.home>h3{
+    width: 80%;
+   margin-top: 270px;
+    height: 50vh;
+ position: absolute;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(240, 232, 232);  
+}
+
+.image>article>.home>.fom>input{
+    width: 27%;
+   margin-top: 300px;
+    height: 60px;
+ margin-left: 250px;
+    font-size: 18px;
+    border: 1px solid white;
+    background-color: transparent;
+
+    border-radius: 7px;
+    color: blanchedalmond;
+    font-family: Arial, Helvetica, sans-serif;
+     
+}
+
+::placeholder{
+    color: red;
+    opacity: 2;
+}
+.image>article>.home>.fom>button{
+    width: 200px;
+    height: 56px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-size: 20px;
+    margin-left: 5px;
+   background-color: red;
+
+
+}
+
+
+
+#card{
+    
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    border-top: 4px solid gray;
+    border-bottom: 4px solid gray;
+    justify-content: center;
+   background-color: black;
+   align-items: center;
+}
+#card>article{
+    height: 70vh;
+    width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+#card>article>.content{
+    height: 70vh;
+    width: 40%;
+display: flex;
+align-items: center;
+
+justify-content: center;
+
+}
+
+#card>article>.content>h2{
+   color: white;
+  font-family: Arial, Helvetica, sans-serif;
+   font-size: 50px;
+  position: absolute;
+  margin-bottom:200px ;
+
+}
+
+
+#card>article>.content>p{
+    height: 40vh;
+   font-size: 25px;
+   color: white;
+   margin-top: 150px;
+  
+  
+}
+
+#card>article>.img{
+    height: 65vh;
+    width: 50%;
+    background-image: url(assest/download.png);
+    background-repeat: no-repeat;
+    background-position: center;
+  display: flex;
+  
+}
+
+#card>article>.img1{
+    height: 60vh;
+    width: 60%;
+    background-size: contain;
+    
+    background-repeat: no-repeat;
+    background-position: center;
+  display: flex;
+  
+}
+
+.foot{
+    height: 80vh;
+    width: 100%;
+   background-color: black; 
+}
+
+
+.margin{
+    margin: auto;
+}
+.text-white{
+    color: white;
+  
+}
+.foot>.foot-text{
+    height: 70vh;
+    width: 80%;
+    
+    margin: auto;
+}
+.foot>.foot-text{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+ol>li{
+    list-style-type: none;
+    margin-top: 20px;
+    margin-right: 30px;
+    text-decoration: underline;
+    color: #e4dfdf;
+}
+
+button{
+    background-color: azure;
+    height: 30px;
+    width: 60px;
+}
+.search>select{
+    height: 30px;
+    width: 90px;
+    color: whitesmoke;
+    background-color: rgb(45, 44, 44);
+}

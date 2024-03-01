@@ -1,0 +1,88 @@
+.home{
+    height: 80vh;
+    width: 100%;
+    background-color: #282c36;
+}
+.nav{
+    height: 8vh;
+    width: 100%;
+    background-color: #16181D;
+}
+.navbar{
+    height: 10vh;
+    width: 100%;
+    background-color: #20232A;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.home>.nav>.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    width: 70%;
+    height: 8vh;
+    margin: auto;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
+.blue{
+    color: rgb(87, 217, 249);
+}
+a{
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+}
+input{
+    height: 5vh;
+    width: 15vw;
+    background-color: #313336;
+    border: none;
+    border-radius: 3px;
+}
+a:hover{
+    color: rgb(78, 175, 236);
+}
+
+.last{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    height: 62vh;
+}
+
+.content>h1{
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(57, 184, 231);
+    text-align: center;
+}
+
+
+.content>h2{
+    margin-top: 30px;
+    font-size: 30px;
+   font-weight: lighter;
+    color:white
+    
+}
+
+
+button{
+    background-color: rgb(49, 204, 204);
+    border: none;
+    height: 7vh;
+    width: 11vw;
+    font-size: 16px;
+    margin-right: 20px;
+   margin-left: 200px;
+    margin-top: 60px;
+}
+button:hover{
+    background-color: white;
+}

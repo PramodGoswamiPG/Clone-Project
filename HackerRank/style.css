@@ -1,0 +1,134 @@
+.navbar {
+    height: 10vh;
+    width: 100%;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+
+ol>li {
+    margin-right: 30px;
+    display: inline;
+    font-size: medium;
+    font-weight: 600;
+}
+
+ol>li:hover {
+    color: green;
+}
+
+button {
+    color: white;
+    background-color: #2ec866;
+    height: 45px;
+    width: 90px;
+    border: none;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+.tech
+{
+    
+    height: 60vh;
+    width: 100%;
+    background-color:  rgb(66, 62, 62);
+    background-image: url(assest/f90114da7e76005cf88fc06bb932aab9.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   filter: brightness(90%);
+}
+.tech>.text>h1{
+    margin-top: 50px;
+    font-size: 40px;
+  
+}
+span{
+    margin-top: 20px;
+    font-size: 16px;
+   
+}
+
+.about{
+    height: 40vh;
+    width: 100%;
+    background-color: #e1e3e6;
+}
+.about>.about-text>h1{
+    margin-top: 50px;
+    font-size: 32px;
+    color: #39424e;
+    font-weight: 100;
+}
+.about>.about-text>p{
+ margin-top: 10px;
+    font-size: 16.6px;
+    
+    color: #39424e;
+}
+
+.about1{
+    height: 40vh;
+    width: 100%;
+    background-color: #f8f9fa;
+}
+
+.about1>.about-text>p{
+    margin-top: 10px;
+    font-size: 16.6px;
+    margin-left: 40px;
+    color: #39424e;
+}
+
+.tech1
+{
+    height: 30vh;
+    width: 100%;
+  
+    background-color: #f8f9fa;
+}
+.tech1>.text1>h1{
+    margin-top: 50px;
+    font-size: 40px;
+}
+.tech1>.text1>p{
+    margin-top: 50px;
+    font-size: 15px;
+}
+
+.foot{
+    height: 60vh;
+    width: 100%;
+    background-color: #f5f5f7;
+}
+
+.foot>.foot-text{
+    height: 70vh;
+    width: 80%;
+    
+    margin: auto;
+}
+.foot>.foot-text{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.foot-text>.a1>ol>li{
+    list-style-type: none;
+    
+    text-decoration: underline;
+    color: #1d1c1c;
+   display: flex;
+   align-items: center;
+   margin-top: 20px;
+}
+
+.margin{
+    margin: auto;
+}
+.text-white{
+    color:#424245;
+  
+}
